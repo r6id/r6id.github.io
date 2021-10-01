@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Tentang
 permalink: /about/
 ---
 
-Some information about you!
+Beberapa informasi tentang Kami!
 
-### More Information
+### r6id
 
-A place to include any other types of information that you'd like to include about yourself.
+Organisasi ini akan berisi semua hal pengembangan untuk perangkat ini (RMX2001/02/03)
 
-### Contact me
+### Kontak
 
-[email@domain.com](mailto:email@domain.com)
+[t.me/realme6id](https://t.me/realme6id)
