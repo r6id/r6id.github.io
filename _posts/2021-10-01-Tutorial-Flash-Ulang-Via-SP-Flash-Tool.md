@@ -79,7 +79,7 @@ Jika Anda memiliki masalah di sini, silakan periksa akhir panduan untuk memperba
 
 <img width="100%" src="../images/flash/07.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Klik pilih Agen DA. (Saya mengunggah paket alat pintas yang diperbarui, jika Anda menggunakan yang lebih lama, unduh yang baru) Masuk ke Paket Alat Bypass > Perbaikan Boot Terverifikasi > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin".
+Klik pilih Agen DA. (Saya mengunggah paket alat pintas yang diperbarui, jika Anda menggunakan yang lebih lama, unduh yang baru) Masuk ke Paket Alat Bypass > Perbaikan Boot Terverifikasi > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin". [Link DA Yang Baru](https://www42.zippyshare.com/v/gRzQWlvW/file.html)
 
 Jika kesalahannya masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di bawah ini. Anda akan dapat memilih file DA.
  
