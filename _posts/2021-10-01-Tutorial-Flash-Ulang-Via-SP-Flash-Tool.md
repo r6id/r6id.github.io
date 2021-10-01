@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tutorial Flash Ulang Via SP Flash Tool
+title: Tutorial Flash Ulang Via SP Flash Tool [WIN]
 ---
 
 Halo semuanya! Jadi setelah bypass perlindungan DAA dan SLA mediatek baru Anda dapat menemukan repo [github di sini](http://github.com/MTK-bypass), dengan bypass ini, kita bisa menggunakannya di SPFlash, berikut adalah panduan bagaimana Anda dapat melakukannya! Panduan ini hanya untuk RMX2001, RMX2002 dan RMX2003 (REALME G90T Series). JANGAN COBA LAKUKAN DI PERANGKAT LAIN!<br/>
@@ -12,16 +12,16 @@ MOHON LIHAT "TROUBLESHOOTING" DI AKHIR PANDUAN TERLEBIH DAHULU JIKA ANDA MEMILIK
 >>(ANDA AKAN KEHILANGAN IMEI JIKA MENGGUNAKAN FORMAT ALL + DOWNLOAD. ANDA AMAN JIKA MENGGUNAKAN DOWNLOAD SAJA!)
 ```
 
-VIDEO GUIDES:
+### VIDEO GUIDES:
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/yxs3SCYSKb0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 
 [JIKA MENGGUNAKAN LINUX KLIK DI SINI](https://forum.xda-developers.com/t/guide-unbrick-downgrade-your-realme-6-6i-india-6s-linux-method.4251077/#post-84705057) - Kredit ke [@bx2_nero](https://forum.xda-developers.com/m/6618455/)
 
-Metode Windows<br/>
+### Metode Windows<br/>
 Persyaratan:<br/>
 - [Bypass Tools Pack](https://drive.google.com/file/d/1DFMUgpD5rWpSeI_qDZD-uhBxqhuvXvlB/view?usp=sharing) - (ALAT SPFLASH, DRIVER DAN BYPASS FILES)
 
-File OFP (OPPO FIRMWARE PACKAGE) yang didekripsi:<br/>
+### File OFP (OPPO FIRMWARE PACKAGE) yang didekripsi:<br/>
 
 1) FIRMWARE LENGKAP - TERMASUK PARTISI "USERDATA", KARENA LEBIH BESAR.
 - B.53 - [Mega](https://mega.nz/folder/2YlCyCTR#kzUmFVZjkBqLNu572AaA3g) - [GDrive](https://drive.google.com/uc?id=1g7Z6zmnQLObdJq5KMI4wUA0OYcTdHU5z&export=download) - [Mirror](https://samarv121.priv.workers.dev/RMX2001_11_B.53_201216_91b378cc_decrypted.zip)
@@ -79,7 +79,9 @@ Jika Anda memiliki masalah di sini, silakan periksa akhir panduan untuk memperba
 
 <img width="100%" src="../images/flash/07.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Klik pilih Agen DA. (Saya mengunggah paket alat pintas yang diperbarui, jika Anda menggunakan yang lebih lama, unduh yang baru) Masuk ke Paket Alat Bypass > Perbaikan Boot Terverifikasi > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin".
+Klik pilih Agen DA. (Saya mengunggah paket alat pintas yang diperbarui, jika Anda menggunakan yang lebih lama, unduh yang baru) Masuk ke Paket Alat Bypass > Perbaikan Boot Terverifikasi > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin". 
+
+> Link DA Yang Baru: [DA_6765_6785_6768_6873_6885_6853.bin](https://www42.zippyshare.com/v/gRzQWlvW/file.html)
 
 Jika kesalahannya masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di bawah ini. Anda akan dapat memilih file DA.
  
@@ -97,13 +99,13 @@ Sekarang, Anda dapat mulai mengunduh dengan tombol dan setelah itu tanda centang
 
 ---
 
-Spoiler: PEMECAHAN MASALAH - FAQ DAN PERBAIKAN<br/>
-KEMUNGKINAN KESALAHAN: "Boot terverifikasi diaktifkan." 
+### Spoiler: PEMECAHAN MASALAH - FAQ DAN PERBAIKAN<br/><br/>
+**KEMUNGKINAN KESALAHAN: "Boot terverifikasi diaktifkan." **
 
 <img width="100%" src="../images/flash/011.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Ada 2 perbaikan untuk ini.<br/>
-Metode 1 (PERBAIKI LANGSUNG):
+### Ada 2 perbaikan untuk ini.<br/><br/>
+**Metode 1 (PERBAIKI LANGSUNG):**
 
 <img width="100%" src="../images/flash/012.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
@@ -113,7 +115,7 @@ Jika kesalahannya masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di ba
 
 <img width="100%" src="../images/flash/013.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Metode ke-2 (SOLUSI):<br/>
+**Metode ke-2 (SOLUSI):**<br/>
 Jika Anda mendapatkan kesalahan ini, dan Anda PASTI menggunakan mode "Hanya Unduh", ada cara untuk menghilangkannya. Pertama, muat pencar lalu hapus centang/batalkan pilihan partisi yang tercantum di bawah ini.
 
 opporserve2,<br/>
@@ -123,7 +125,7 @@ khusus_pramuat,<br/>
 data pengguna,<br/>
 super,<br/>
 
-Setelah menjalankan brom.bat dan mem-flash semua partisi kecuali yang tercantum di atas, ponsel Anda akan dapat melakukan boot ulang ke pemulihan stok. Sekarang pilih opsi "Matikan" lalu jalankan brom.bat, lewati otorisasi dan kemudian flash partisi yang tercantum di bawah ini dari Alat SPFlash.
+Setelah menjalankan brom.bat dan mem-flash semua partisi kecuali yang tercantum di atas, ponsel Anda akan dapat melakukan boot ulang ke pemulihan stok. Sekarang pilih opsi "Matikan" lalu jalankan **brom.bat**, lewati otorisasi dan kemudian flash partisi yang tercantum di bawah ini dari Alat SPFlash.
 
 super,<br/>
 dtbo,<br/>
@@ -131,13 +133,13 @@ data pengguna<br/>
 
 Perangkat Anda akan dapat boot ke sistem setelah ini jika Anda telah mengikuti langkah-langkah dengan benar.<br/>
 
-KEMUNGKINAN KESALAHAN: Masalah saat menonaktifkan perlindungan;
+**KEMUNGKINAN KESALAHAN: Masalah saat menonaktifkan perlindungan;**
 
 <img width="100%" src="../images/flash/014.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
 Matikan perangkat Anda Mulai ulang proses dari langkah ke-2.<br/>
 
-KEMUNGKINAN ERROR: Masalah saat berkedip;
+**KEMUNGKINAN ERROR: Masalah saat berkedip;**
 
 <img width="100%" src="../images/flash/015.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
@@ -145,17 +147,17 @@ Matikan perangkat Anda, Anda harus melakukan bypass lagi. Periksa Kabel USB Anda
 
 ---
 
-Spoiler: UNTUK ORANG YANG INGIN DOWNGRADE DAN UNTUK ORANG YANG MENDAPATKAN VERSI UNI EROPA!<br/><br/>
+### Spoiler: YANG INGIN DOWNGRADE & MENDAPATKAN VERSI UNI EROPA!<br/><br/>
 
-Untuk orang yang ingin #DOWNGRADE:<br/>
+Yang ingin #DOWNGRADE:<br/>
 Jika Anda ingin menurunkan versi ke versi apa pun yang Anda inginkan, cukup gunakan file B23 karena ini adalah file ofp tertua yang dapat saya temukan untuk proses ekstraksi. Jika Anda menggunakan versi UE sebelumnya (Versi apa pun yang dimulai dengan A) unduh ozip dari sini (untuk UE), di sini (untuk Global) dan flash secara manual dari pemulihan Realme UI dan format data Anda. Perangkat Anda akan kembali ke firmware A.XY dengan fitur UE (Tanpa heytap, tanpa iklan, tanpa toko tema, tanpa bloatware) yang Anda miliki sebelumnya.
 
-Untuk orang-orang di UE yang ingin #UNBRICK:<br/>
+Untuk kalian di UE yang ingin #UNBRICK:<br/>
 Jadi, Anda dapat menggunakan versi apa pun yang dimulai dengan B dan itu akan berfungsi. Ini berfungsi dalam kasus saya, saya menggunakan A.48, saya mem-flash B53 dan lebih dari itu mem-flash B23. Tidak ada masalah sama sekali. Jika Anda ingin kembali ke EU rom (dimulai dengan A) unduh ozip dari sini dan flash secara manual dari pemulihan Realme UI dan format data Anda. Perangkat Anda akan kembali ke firmware A.XY dengan fitur UE (Tanpa heytap, tanpa iklan, tanpa toko tema, tanpa bloatware) yang Anda miliki sebelumnya.
 
 Terima kasih kepada:
 - [https://github.com/bkerler/oppo_decrypt](https://github.com/bkerler/oppo_decrypt) - Decryptor.
 - [https://github.com/MTK-bypass](https://github.com/MTK-bypass) - tools MTK-bypass.
-- [Orangeskai](https://github.com/Orangeskai) - First translater [1]
-- [officialputuid](https://github.com/officialputuid) - update & translate [2]
-- and All Admin Realme 6 Indonesia & Global
+- [Orangeskai](https://github.com/Orangeskai) - First translate [1].
+- [officialputuid](https://github.com/officialputuid) - update & translate [2].
+- and All Admin Realme 6 Indonesia & Global.
