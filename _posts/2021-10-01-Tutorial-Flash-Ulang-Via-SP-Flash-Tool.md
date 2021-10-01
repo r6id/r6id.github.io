@@ -147,12 +147,12 @@ Matikan perangkat Anda, Anda harus melakukan bypass lagi. Periksa Kabel USB Anda
 
 ---
 
-### Spoiler: YYANG INGIN DOWNGRADE & MENDAPATKAN VERSI UNI EROPA!<br/><br/>
+### Spoiler: YANG INGIN DOWNGRADE & MENDAPATKAN VERSI UNI EROPA!<br/><br/>
 
-Untuk orang yang ingin #DOWNGRADE:<br/>
+Yang ingin #DOWNGRADE:<br/>
 Jika Anda ingin menurunkan versi ke versi apa pun yang Anda inginkan, cukup gunakan file B23 karena ini adalah file ofp tertua yang dapat saya temukan untuk proses ekstraksi. Jika Anda menggunakan versi UE sebelumnya (Versi apa pun yang dimulai dengan A) unduh ozip dari sini (untuk UE), di sini (untuk Global) dan flash secara manual dari pemulihan Realme UI dan format data Anda. Perangkat Anda akan kembali ke firmware A.XY dengan fitur UE (Tanpa heytap, tanpa iklan, tanpa toko tema, tanpa bloatware) yang Anda miliki sebelumnya.
 
-Untuk orang-orang di UE yang ingin #UNBRICK:<br/>
+Untuk kalian di UE yang ingin #UNBRICK:<br/>
 Jadi, Anda dapat menggunakan versi apa pun yang dimulai dengan B dan itu akan berfungsi. Ini berfungsi dalam kasus saya, saya menggunakan A.48, saya mem-flash B53 dan lebih dari itu mem-flash B23. Tidak ada masalah sama sekali. Jika Anda ingin kembali ke EU rom (dimulai dengan A) unduh ozip dari sini dan flash secara manual dari pemulihan Realme UI dan format data Anda. Perangkat Anda akan kembali ke firmware A.XY dengan fitur UE (Tanpa heytap, tanpa iklan, tanpa toko tema, tanpa bloatware) yang Anda miliki sebelumnya.
 
 Terima kasih kepada:
