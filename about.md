@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tentang
-permalink: /about/
+permalink: /tentang/
 ---
 
 Beberapa informasi tentang Kami!
