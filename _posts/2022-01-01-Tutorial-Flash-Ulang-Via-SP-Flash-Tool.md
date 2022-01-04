@@ -3,9 +3,9 @@ layout: post
 title: Tutorial Flash Ulang Via SP Flash Tool [WIN]
 ---
 
-Halo semuanya! Jadi setelah bypass perlindungan DAA dan SLA mediatek baru Anda dapat menemukan repo [github di sini](http://github.com/MTK-bypass), dengan bypass ini, kita bisa menggunakannya di SPFlash, berikut adalah panduan bagaimana Anda dapat melakukannya! Panduan ini hanya untuk RMX2001, RMX2002 dan RMX2003 (REALME G90T Series). JANGAN COBA LAKUKAN DI PERANGKAT LAIN!<br/>
+Halo semuanya! Jadi setelah bypass perlindungan DAA dan SLA mediatek baru dirilis, bisa di cek di repo [github di sini](http://github.com/MTK-bypass), dengan bypass ini, kita bisa menggunakannya di SPFlash, berikut adalah panduan bagaimana Anda dapat melakukannya! Panduan ini hanya untuk RMX2001, RMX2002 dan RMX2003 (REALME G90T Series). JANGAN COBA LAKUKAN DI PERANGKAT LAIN!<br/>
 
-MOHON LIHAT "TROUBLESHOOTING" DI AKHIR PANDUAN TERLEBIH DAHULU JIKA ANDA MEMILIKI MASALAH DALAM PROSES SEBELUM BERTANYA!<br/>
+CEK "TROUBLESHOOTING" DI AKHIR TUTORIAL TERLEBIH DAHULU JIKA ANDA MEMILIKI MASALAH DALAM PROSES SEBELUM BERTANYA!<br/>
 
 >SELALU GUNAKAN DOWNLOAD MODE DI SP FLASH TOOL!
 >JANGAN SENTUH APA PUN YANG TERKAIT DENGAN FORMAT DI SP FLASH TOOL!
@@ -23,20 +23,24 @@ Persyaratan:<br/>
 
 ### File OFP (OPPO FIRMWARE PACKAGE) yang didekripsi:<br/>
 
-1) FIRMWARE LENGKAP - TERMASUK PARTISI "USERDATA", KARENA LEBIH BESAR.
-- B.53 - [Mega](https://mega.nz/folder/2YlCyCTR#kzUmFVZjkBqLNu572AaA3g) - [GDrive](https://drive.google.com/uc?id=1g7Z6zmnQLObdJq5KMI4wUA0OYcTdHU5z&export=download) - [Mirror](https://samarv121.priv.workers.dev/RMX2001_11_B.53_201216_91b378cc_decrypted.zip)
+1) FIRMWARE LENGKAP - TERMASUK PARTISI "USERDATA", JADI UKURAN FILE LEBIH BESAR.
+- A.50[EU] - [Link Broken]
+- A.42[EU] - [Link Broken]
+- Bagi yang punya mirror file ini (A.42-EU & A.50-EU), chat ke telegram @officialputuid * <br/>
+
+- B.23 (rUI 1.0 rilis pertama) - [Mega](https://mega.nz/folder/aENFzagK#V8UqxdVZLNLjpIWHMjXAkA) - [GDrive](https://drive.google.com/file/d/1u5HYznX3iXFoowXKnGSIQ3k6hMpJN7il/view?usp=sharing) - [Mirror](https://samarv121.priv.workers.dev/0:/20210123-30646/B23e.zip)
 - B.37 - [Mega](https://mega.nz/folder/nJ82za5S#GOeDTQT8PMKFobyZ3fDBPQ) - [GDrive](https://drive.google.com/uc?id=1O5-DaYk--JrFJwS0SuNkwLeDlw8t1jtK&export=download)
-- B.23 (rUI 1.0 rilis pertama) - [Mega](https://mega.nz/folder/aENFzagK#V8UqxdVZLNLjpIWHMjXAkA) - [GDrive](https://drive.google.com/file/d/1u5HYznX3iXFoowXKnGSIQ3k6hMpJN7il/view?usp=sharing) - [Mirror](https://samarv121.priv.workers.dev/20210123-30646/B23e.zip)
-- A.50[EU] - [Mega](https://mega.nz/file/ggklTIrT#xcDPgvoh02VnwWpf5OpDHby19pk-fZa5Rby8p4ia_AM) - [GDrive](https://ghostmirror.hitesh920.workers.dev/A.50e.zip)
-- A.42[EU] - [GDrive](https://drive.google.com/file/d/19rwMHYMW-qxsF1idvfPbZgmFs_W1r8RB/view?usp=sharing) - [Mirror](https://drive.google.com/uc?id=1JW29G4JRhrHxHgUkcfnzueLbdBmXmtPz&export=download)
+- B.53 - [Mega](https://mega.nz/folder/2YlCyCTR#kzUmFVZjkBqLNu572AaA3g) - [GDrive](https://drive.google.com/uc?id=1g7Z6zmnQLObdJq5KMI4wUA0OYcTdHU5z&export=download)
 
 
-2) FIRMWARE NOU (NO USERDATA) - UNTUK ORANG DENGAN RENCANA DATA TERBATAS.
-- B.53 - [GDrive](https://samarv121.priv.workers.dev/20210225-5663/No-Userdata-B53e.zip) - [Mirror](https://samarv121.priv.workers.dev/20210225-32760/No-Userdata-B53e.zip)
-- B.37 - [GDrive](https://samarv121.priv.workers.dev/20210225-24427/No-Userdata-B37e.zip) - [Mirror](https://samarv121.priv.workers.dev/20210225-15651/No-Userdata-B37e.zip)
-- B.23 - [GDrive](https://samarv121.priv.workers.dev/20210225-31591/No-Userdata-B23e.zip) - [Mirror](https://samarv121.priv.workers.dev/20210225-15809/No-Userdata-B23e.zip)
-- A.50[EU] - [Mega](https://mega.nz/file/pkskwaSK#GeMVv1WPPAVbuZVnc3w1LUPZmxnjXu-pJR1qYEpyTgg) - [GDrive](https://ghostmirror.hitesh920.workers.dev/No-Userdata-A.50e.zip)
-- A.42[EU] - [GDrive](https://drive.google.com/file/d/1sAwvLxfgAAlOjab8kdQBuUAgWtDfZrrh/view?usp=sharing) - [Mirror](https://drive.google.com/uc?id=1jCKVNTkwBySz5rCgdHer7Bf1nk4xb8Vv&export=download)
+2) FIRMWARE NOU (NO USERDATA) - UNTUK ORANG DENGAN PAKET DATA/KOUTA TERBATAS.
+- A.50[EU] - [Link Broken]
+- A.42[EU] - [Link Broken]
+- Bagi yang punya mirror file ini (A.42-EU & A.50-EU), chat ke telegram @officialputuid * <br/>
+
+- B.23 - [GDrive](https://samarv121.priv.workers.dev/0:/20210225-31591/No-Userdata-B23e.zip) - [Mirror](https://samarv121.priv.workers.dev/0:/20210225-15809/No-Userdata-B23e.zip)
+- B.37 - [GDrive](https://samarv121.priv.workers.dev/0:/20210225-24427/No-Userdata-B37e.zip) - [Mirror](https://samarv121.priv.workers.dev/0:/20210225-15651/No-Userdata-B37e.zip)
+- B.53 - [GDrive](https://samarv121.priv.workers.dev/0:/20210225-5663/No-Userdata-B53e.zip) - [Mirror](https://samarv121.priv.workers.dev/0:/20210225-32760/No-Userdata-B53e.zip)
 
 Silahkan baca penjelasan tentang apa itu partisi userdata dan apa bedanya dengan firmware lain disini. [APA ITU NOU-NO USERDATA](https://telegra.ph/Userdata---NO-Userdata-whats-the-difference-02-25)<br/>
 Catatan: Semua file dengan tautan yang tersedia di atas diuji.<br/><br/>
@@ -46,20 +50,19 @@ Catatan: Semua file dengan tautan yang tersedia di atas diuji.<br/><br/>
 <img width="100%" src="../images/flash/01.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
 Pastikan untuk memilih opsi terakhir.<br/><br/>
-1) Buka command prompt dengan menjalankan cmd,
-Enter:<br/>
+1) Buka command prompt lalu ketik:<br/>
 python -m pip instal pyusb pyserial json5
 
 <img width="100%" src="../images/flash/02.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
 Setelah instalasi, Anda dapat menjalankan kembali perintah tersebut. Jika terlihat seperti screenshot di atas Anda siap untuk melanjutkan ke langkah berikutnya.
 
-setelah instalasi tinggalkan CMD.<br/><br/>
+setelah instalasi selelsai tutup CMD.<br/><br/>
 2) Buka folder driver, cari file .inf klik kanan dan tekan install.
 
 <img width="100%" src="../images/flash/03.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-3) [Unduh file ini](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) dan instal, setelah menginstal hubungkan ponsel Anda ke PC dengan menghubungkan ponsel Anda ke PC sambil melakukan Vol+- . Anda mungkin memerlukan [driver ini](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file) juga jika tidak terdeteksi.
+3) [Unduh file ini](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) dan instal, setelah menginstal hubungkan ponsel Anda ke PC dengan menghubungkan ponsel Anda ke PC sambil melakukan Vol+- . Jika perangkat tidak terdeteksi, Install [driver ini](http://www.mediafire.com/file/nninaiiqy1e5csa/New_QcomMtk_Driver_Setup_V2.0.1.1_GsmMafia.Com.exe/file)
 
 <img width="100%" src="../images/flash/04.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
@@ -89,7 +92,7 @@ Jika kesalahannya masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di ba
 
 <img width="100%" src="../images/flash/09.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Pastikan "Unduh Saja" dipilih. Jangan pilih APA SAJA! Anda akan kehilangan IMEI, Serial Number, Kemampuan Pengesahan Perangkat Keras, dll. Jika Anda memilih "Format data + Unduh" pastikan Anda memilih "Hanya Unduh". 
+Pastikan "Unduh Saja" dipilih. Jangan pilih APA SAJA! Anda akan kehilangan IMEI, Serial Number/HW, dll. Jika Anda memilih "Format data + Unduh" pastikan Anda memilih "Hanya Unduh". 
 
 <img width="100%" src="../images/flash/010.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
