@@ -45,13 +45,12 @@ Persyaratan:<br/>
 Silahkan baca penjelasan tentang apa itu partisi userdata dan apa bedanya dengan firmware lain disini. [APA ITU NOU-NO USERDATA](https://telegra.ph/Userdata---NO-Userdata-whats-the-difference-02-25)<br/>
 Catatan: Semua file dengan tautan yang tersedia di atas diuji.<br/><br/>
 [Python](https://www.python.org/downloads/) (Harus ditambahkan ke PATH saat instalasi, lihat tangkapan layar jika Anda tidak mengerti)<br/><br/>
-[libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) - Mengalami Masalah? [Gunakan ini](https://mega.nz/folder/WZ0EVTYQ#rN9YBCxIDF7odKtbnTh5hQ).
 
 <img width="100%" src="../images/flash/01.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
 Pastikan untuk memilih opsi terakhir.<br/><br/>
 1) Buka command prompt lalu ketik:<br/>
-python -m pip instal pyusb pyserial json5
+python -m pip install pyusb pyserial json5
 
 <img width="100%" src="../images/flash/02.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
@@ -82,23 +81,21 @@ Jika Anda memiliki masalah di sini, silakan periksa akhir panduan untuk memperba
 
 <img width="100%" src="../images/flash/07.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Klik pilih Agen DA. (Saya mengunggah paket alat pintas yang diperbarui, jika Anda menggunakan yang lebih lama, unduh yang baru) Masuk ke Paket Alat Bypass > Perbaikan Boot Terverifikasi > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin". 
+Klik pilih Agen DA -> Folder "Bypass Tools Pack" -> "VerifiedBootFix" > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin". 
 
-> Link DA Yang Baru: [DA_6765_6785_6768_6873_6885_6853.bin](https://www42.zippyshare.com/v/gRzQWlvW/file.html)
-
-Jika kesalahannya masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di bawah ini. Anda akan dapat memilih file DA.
+Jika muncul error, masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di bawah ini. Anda akan dapat memilih file DA.
  
 <img width="100%" src="../images/flash/08.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
 <img width="100%" src="../images/flash/09.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Pastikan "Unduh Saja" dipilih. Jangan pilih APA SAJA! Anda akan kehilangan IMEI, Serial Number/HW, dll. Jika Anda memilih "Format data + Unduh" pastikan Anda memilih "Hanya Unduh". 
+Pastikan "Unduh Saja (Download only)" dipilih. Jangan pilih FORMAT ataupun itu. Anda akan kehilangan IMEI, Serial Number/HW, dll. Jika Anda memilih "Format data + Download" pastikan Anda memilih "Unduh Saja (Download only)". 
 
 <img width="100%" src="../images/flash/010.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Setelah di flash akan terlihat seperti ini. Unduhan telah selesai. Menikmati!<br/>
+Setelah di flash akan terlihat seperti ini. Unduhan telah selesai!<br/>
 
-Sekarang, Anda dapat mulai mengunduh dengan tombol dan setelah itu tanda centang akan muncul. Anda dapat me-reboot ponsel Anda dan menggunakannya seperti sebelumnya sekarang! Semua data pengguna Anda (pasti) akan dihapus!
+Sekarang, Anda dapat mulai dan lalu tunggu prosesnya, hingga tanda centang muncul. Anda dapat me-reboot ponsel Anda dan menggunakannya seperti sebelumnya! Semua data pengguna Anda (pasti) terhapus!
 
 ---
 
@@ -112,7 +109,7 @@ Sekarang, Anda dapat mulai mengunduh dengan tombol dan setelah itu tanda centang
 
 <img width="100%" src="../images/flash/012.png" style="border: 4px #4285F4 solid; border-radius: 16px;">
 
-Klik pilih Agen DA. (Saya mengunggah paket alat pintas yang diperbarui, jika Anda menggunakan yang lebih lama, unduh yang baru) Masuk ke Paket Alat Bypass > Perbaikan Boot Terverifikasi > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin".
+Klik pilih Agen DA -> Folder "Bypass Tools Pack" -> "VerifiedBootFix" > Pilih file "DA_6765_6785_6768_6873_6885_6853.bin". 
 
 Jika kesalahannya masuk ke menu Opsi dan nonaktifkan opsi yang ditunjukkan di bawah ini. Anda akan dapat memilih file DA. 
 
@@ -150,9 +147,9 @@ Matikan perangkat Anda, Anda harus melakukan bypass lagi. Periksa Kabel USB Anda
 
 ---
 
-### Spoiler: YANG INGIN DOWNGRADE & MENDAPATKAN VERSI UNI EROPA!<br/><br/>
+### Spoiler: JIKA INGIN DOWNGRADE & MENDAPATKAN FW UNI EROPA!<br/><br/>
 
-Yang ingin #DOWNGRADE:<br/>
+Jika ingin #DOWNGRADE:<br/>
 Jika Anda ingin menurunkan versi ke versi apa pun yang Anda inginkan, cukup gunakan file B23 karena ini adalah file ofp tertua yang dapat saya temukan untuk proses ekstraksi. Jika Anda menggunakan versi UE sebelumnya (Versi apa pun yang dimulai dengan A) unduh ozip dari sini (untuk UE), di sini (untuk Global) dan flash secara manual dari pemulihan Realme UI dan format data Anda. Perangkat Anda akan kembali ke firmware A.XY dengan fitur UE (Tanpa heytap, tanpa iklan, tanpa toko tema, tanpa bloatware) yang Anda miliki sebelumnya.
 
 Untuk kalian di UE yang ingin #UNBRICK:<br/>
