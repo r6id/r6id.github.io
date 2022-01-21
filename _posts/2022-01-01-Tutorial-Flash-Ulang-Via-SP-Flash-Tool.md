@@ -32,6 +32,7 @@ Persyaratan:<br/>
 - B.37 - [Mega](https://mega.nz/folder/nJ82za5S#GOeDTQT8PMKFobyZ3fDBPQ) - [GDrive](https://drive.google.com/uc?id=1O5-DaYk--JrFJwS0SuNkwLeDlw8t1jtK&export=download)
 - B.53 - [Mega](https://mega.nz/folder/2YlCyCTR#kzUmFVZjkBqLNu572AaA3g) - [GDrive](https://drive.google.com/uc?id=1g7Z6zmnQLObdJq5KMI4wUA0OYcTdHU5z&export=download)
 
+- C.16-IN [GDrive](https://drive.google.com/file/d/1hnOa8Sv-Kstt18qo06va3_rANW-RmALx/view) "rUI2.0 (A11)"
 
 2) FIRMWARE NOU (NO USERDATA) - UNTUK ORANG DENGAN PAKET DATA/KOUTA TERBATAS.
 - A.50[EU] - [Link Broken]
